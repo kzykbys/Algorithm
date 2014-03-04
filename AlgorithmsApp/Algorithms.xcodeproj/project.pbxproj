@@ -29,6 +29,9 @@
 		460DCA1E18C526F300E0CB88 /* RandomizedSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DCA0918C526F300E0CB88 /* RandomizedSelect.m */; };
 		460DCA1F18C526F300E0CB88 /* RedBlackTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DCA0B18C526F300E0CB88 /* RedBlackTree.m */; };
 		460DCA2018C526F300E0CB88 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DCA0D18C526F300E0CB88 /* Stack.m */; };
+		46547CC218C538BF005BC9D5 /* MinimumSpanningTreeKruskal.m in Sources */ = {isa = PBXBuildFile; fileRef = 46547CBD18C538BF005BC9D5 /* MinimumSpanningTreeKruskal.m */; };
+		46547CC318C538BF005BC9D5 /* MSTKruskaEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 46547CBF18C538BF005BC9D5 /* MSTKruskaEdge.m */; };
+		46547CC418C538BF005BC9D5 /* MSTKruskalVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 46547CC118C538BF005BC9D5 /* MSTKruskalVertex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +91,12 @@
 		460DCA0B18C526F300E0CB88 /* RedBlackTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedBlackTree.m; sourceTree = "<group>"; };
 		460DCA0C18C526F300E0CB88 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		460DCA0D18C526F300E0CB88 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		46547CBC18C538BF005BC9D5 /* MinimumSpanningTreeKruskal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimumSpanningTreeKruskal.h; sourceTree = "<group>"; };
+		46547CBD18C538BF005BC9D5 /* MinimumSpanningTreeKruskal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinimumSpanningTreeKruskal.m; sourceTree = "<group>"; };
+		46547CBE18C538BF005BC9D5 /* MSTKruskaEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTKruskaEdge.h; sourceTree = "<group>"; };
+		46547CBF18C538BF005BC9D5 /* MSTKruskaEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTKruskaEdge.m; sourceTree = "<group>"; };
+		46547CC018C538BF005BC9D5 /* MSTKruskalVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTKruskalVertex.h; sourceTree = "<group>"; };
+		46547CC118C538BF005BC9D5 /* MSTKruskalVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTKruskalVertex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +178,12 @@
 				460DCA0C18C526F300E0CB88 /* Stack.h */,
 				460DCA0D18C526F300E0CB88 /* Stack.m */,
 				460DC9DD18C526D000E0CB88 /* main.m */,
+				46547CBC18C538BF005BC9D5 /* MinimumSpanningTreeKruskal.h */,
+				46547CBD18C538BF005BC9D5 /* MinimumSpanningTreeKruskal.m */,
+				46547CBE18C538BF005BC9D5 /* MSTKruskaEdge.h */,
+				46547CBF18C538BF005BC9D5 /* MSTKruskaEdge.m */,
+				46547CC018C538BF005BC9D5 /* MSTKruskalVertex.h */,
+				46547CC118C538BF005BC9D5 /* MSTKruskalVertex.m */,
 				460DC9E118C526D000E0CB88 /* Algorithms.1 */,
 				460DC9DF18C526D000E0CB88 /* Supporting Files */,
 			);
@@ -240,10 +255,12 @@
 				460DCA1618C526F300E0CB88 /* HeapSort.m in Sources */,
 				460DC9DE18C526D000E0CB88 /* main.m in Sources */,
 				460DCA1D18C526F300E0CB88 /* QuickSort.m in Sources */,
+				46547CC418C538BF005BC9D5 /* MSTKruskalVertex.m in Sources */,
 				460DCA1918C526F300E0CB88 /* LinkedList.m in Sources */,
 				460DCA1118C526F300E0CB88 /* BTree.m in Sources */,
 				460DCA2018C526F300E0CB88 /* Stack.m in Sources */,
 				460DCA1C18C526F300E0CB88 /* Queue.m in Sources */,
+				46547CC318C538BF005BC9D5 /* MSTKruskaEdge.m in Sources */,
 				460DCA1F18C526F300E0CB88 /* RedBlackTree.m in Sources */,
 				460DCA1518C526F300E0CB88 /* DFSNode.m in Sources */,
 				460DCA1218C526F300E0CB88 /* BTreeNode.m in Sources */,
@@ -253,6 +270,7 @@
 				460DCA1718C526F300E0CB88 /* HuffmanCoding.m in Sources */,
 				460DCA1318C526F300E0CB88 /* CountingSort.m in Sources */,
 				460DCA1E18C526F300E0CB88 /* RandomizedSelect.m in Sources */,
+				46547CC218C538BF005BC9D5 /* MinimumSpanningTreeKruskal.m in Sources */,
 				460DCA1018C526F300E0CB88 /* BreadthFirstSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +383,7 @@
 				460DC9E718C526D000E0CB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

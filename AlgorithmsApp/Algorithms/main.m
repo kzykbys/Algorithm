@@ -24,7 +24,7 @@
 #import "BTreeNode.h"
 #import "BreadthFirstSearch.h"
 #import "DepthFirstSearch.h"
-// #import "MinimumSpanningTreeKruskal.h"
+#import "MinimumSpanningTreeKruskal.h"
 
 int main(int argc, const char * argv[])
 {
@@ -38,8 +38,8 @@ int main(int argc, const char * argv[])
         
         int i,n;
         srand((unsigned)time(NULL));
-        for (i = 0; i < 100; i++ ) {
-            n = random() % 100 + 0;
+        for (i = 0; i < 10; i++ ) {
+            n = random() % 10 + 0;
             [arr0 addObject:[NSNumber numberWithInteger:n]];
         }
         
@@ -47,12 +47,12 @@ int main(int argc, const char * argv[])
         startDate = [NSDate date];
         startDate = [NSDate date];
         
-        HeapSort *heapSort = [[HeapSort alloc] init];
-        arr0               = [heapSort Heap_Sort:arr0];
-
+        MinimumSpanningTreeKruskal *MSTKruskal = [[MinimumSpanningTreeKruskal alloc] init];
+        [MSTKruskal MST_Kruskal];
+        
         
         endDate = [NSDate date];
-        NSLog(@"%@",arr0);
+        //NSLog(@"%@",arr0);
         
         
         NSLog(@"==================================");

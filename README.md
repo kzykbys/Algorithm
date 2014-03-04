@@ -28,6 +28,7 @@ Basic-Algorithm
 ## Graph
 1. Breadth First Search
 2. Depth First Search
+3. Kruskal's Minimum Spanning Tree
 
 ## Others
 1. RandomizedSelect
