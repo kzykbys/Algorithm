@@ -25,6 +25,7 @@
 #import "BreadthFirstSearch.h"
 #import "DepthFirstSearch.h"
 #import "MinimumSpanningTreeKruskal.h"
+#import "MinimumSpanningTreePrim.h"
 
 int main(int argc, const char * argv[])
 {
@@ -47,9 +48,11 @@ int main(int argc, const char * argv[])
         startDate = [NSDate date];
         startDate = [NSDate date];
         
-        MinimumSpanningTreeKruskal *MSTKruskal = [[MinimumSpanningTreeKruskal alloc] init];
-        [MSTKruskal MST_Kruskal];
+//        MinimumSpanningTreeKruskal *MSTKruskal = [[MinimumSpanningTreeKruskal alloc] init];
+//        [MSTKruskal MST_Kruskal];
         
+        MinimumSpanningTreePrim *MSTPrim = [[MinimumSpanningTreePrim alloc] init];
+        [MSTPrim MST_Prim:MSTPrim.graph[0]];
         
         endDate = [NSDate date];
         //NSLog(@"%@",arr0);
