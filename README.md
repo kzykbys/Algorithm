@@ -1,6 +1,7 @@
 Basic-Algorithm
 ===============
-# Algorithms List
+
+Algorithm Implementation from _Introduction to Algorithms - Third Edition_ based on Objective-C.
 
 ## Sort
 1. InsertionSort
