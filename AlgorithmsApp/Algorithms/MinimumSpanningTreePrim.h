@@ -26,13 +26,13 @@
  
     Minimum Spanning Tree :
     acyclic and connects all of the vertices.
- 
+
         2     3 --- 4
       /      / \     \
     1      9    \     5
      \           \
       8 --- 7 --- 6
- 
+
     Each vertex's parent propery consist MST tree.
 */
 

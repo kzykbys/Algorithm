@@ -35,6 +35,9 @@
 		46CDCB6518C6BB72000CEF60 /* MinimumSpanningTreePrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDCB6418C6BB72000CEF60 /* MinimumSpanningTreePrim.m */; };
 		46CDCB6818C6BC43000CEF60 /* MSTPrimEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDCB6718C6BC43000CEF60 /* MSTPrimEdge.m */; };
 		46CDCB6B18C6BC56000CEF60 /* MSTPrimVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDCB6A18C6BC56000CEF60 /* MSTPrimVertex.m */; };
+		46E9829518CA662900D72685 /* BellmanFord.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9829418CA662900D72685 /* BellmanFord.m */; };
+		46E9829818CA66D000D72685 /* BellmanFordVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9829718CA66D000D72685 /* BellmanFordVertex.m */; };
+		46E9829B18CA6A0A00D72685 /* BellmanFordEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9829A18CA6A0A00D72685 /* BellmanFordEdge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +109,12 @@
 		46CDCB6718C6BC43000CEF60 /* MSTPrimEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTPrimEdge.m; sourceTree = "<group>"; };
 		46CDCB6918C6BC56000CEF60 /* MSTPrimVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTPrimVertex.h; sourceTree = "<group>"; };
 		46CDCB6A18C6BC56000CEF60 /* MSTPrimVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTPrimVertex.m; sourceTree = "<group>"; };
+		46E9829318CA662900D72685 /* BellmanFord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BellmanFord.h; sourceTree = "<group>"; };
+		46E9829418CA662900D72685 /* BellmanFord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BellmanFord.m; sourceTree = "<group>"; };
+		46E9829618CA66D000D72685 /* BellmanFordVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BellmanFordVertex.h; sourceTree = "<group>"; };
+		46E9829718CA66D000D72685 /* BellmanFordVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BellmanFordVertex.m; sourceTree = "<group>"; };
+		46E9829918CA6A0A00D72685 /* BellmanFordEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BellmanFordEdge.h; sourceTree = "<group>"; };
+		46E9829A18CA6A0A00D72685 /* BellmanFordEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BellmanFordEdge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +208,12 @@
 				46CDCB6718C6BC43000CEF60 /* MSTPrimEdge.m */,
 				46CDCB6918C6BC56000CEF60 /* MSTPrimVertex.h */,
 				46CDCB6A18C6BC56000CEF60 /* MSTPrimVertex.m */,
+				46E9829318CA662900D72685 /* BellmanFord.h */,
+				46E9829418CA662900D72685 /* BellmanFord.m */,
+				46E9829618CA66D000D72685 /* BellmanFordVertex.h */,
+				46E9829718CA66D000D72685 /* BellmanFordVertex.m */,
+				46E9829918CA6A0A00D72685 /* BellmanFordEdge.h */,
+				46E9829A18CA6A0A00D72685 /* BellmanFordEdge.m */,
 				460DC9E118C526D000E0CB88 /* Algorithms.1 */,
 				460DC9DF18C526D000E0CB88 /* Supporting Files */,
 			);
@@ -267,6 +282,7 @@
 				460DCA1B18C526F300E0CB88 /* MergeSort.m in Sources */,
 				460DCA1418C526F300E0CB88 /* DepthFirstSearch.m in Sources */,
 				460DCA1818C526F300E0CB88 /* InsertionSort.m in Sources */,
+				46E9829B18CA6A0A00D72685 /* BellmanFordEdge.m in Sources */,
 				460DCA1618C526F300E0CB88 /* HeapSort.m in Sources */,
 				460DC9DE18C526D000E0CB88 /* main.m in Sources */,
 				460DCA1D18C526F300E0CB88 /* QuickSort.m in Sources */,
@@ -278,7 +294,9 @@
 				460DCA1C18C526F300E0CB88 /* Queue.m in Sources */,
 				46547CC318C538BF005BC9D5 /* MSTKruskaEdge.m in Sources */,
 				460DCA1F18C526F300E0CB88 /* RedBlackTree.m in Sources */,
+				46E9829818CA66D000D72685 /* BellmanFordVertex.m in Sources */,
 				46CDCB6B18C6BC56000CEF60 /* MSTPrimVertex.m in Sources */,
+				46E9829518CA662900D72685 /* BellmanFord.m in Sources */,
 				460DCA1518C526F300E0CB88 /* DFSNode.m in Sources */,
 				460DCA1218C526F300E0CB88 /* BTreeNode.m in Sources */,
 				460DCA0F18C526F300E0CB88 /* BinarySearchTree.m in Sources */,

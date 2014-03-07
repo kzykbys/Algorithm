@@ -1,14 +1,14 @@
-Basic-Algorithm
+Algorithm
 ===============
 
 Algorithm Implementation from _Introduction to Algorithms - Third Edition_ based on Objective-C.
 
 ## Sort
-1. InsertionSort
-2. MergeSort
-3. QuickSort
-4. HeapSort
-5. CountingSort
+1. Insertion Sort
+2. Merge Sort
+3. Quick Sort
+4. Heap Sort
+5. Counting Sort
 
 ## Basic Data Structure
 1. Queue
@@ -17,7 +17,7 @@ Algorithm Implementation from _Introduction to Algorithms - Third Edition_ based
 4. BinarySearchTree
 5. RedBlackTree
 
-## AdvancedDataStructure
+## Advanced Data Structure
 1. BTree
 
 ## Dynamic Programming
@@ -31,6 +31,7 @@ Algorithm Implementation from _Introduction to Algorithms - Third Edition_ based
 2. Depth First Search
 3. Kruskal's Minimum Spanning Tree
 4. Prim's Minimum Spanning Tree
+5. Bellman Ford
 
 ## Others
 1. RandomizedSelect

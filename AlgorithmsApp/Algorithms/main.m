@@ -1,3 +1,4 @@
+
 //
 //  main.m
 //  Algorithms
@@ -26,6 +27,7 @@
 #import "DepthFirstSearch.h"
 #import "MinimumSpanningTreeKruskal.h"
 #import "MinimumSpanningTreePrim.h"
+#import "BellmanFord.h"
 
 int main(int argc, const char * argv[])
 {
@@ -46,34 +48,36 @@ int main(int argc, const char * argv[])
         
         NSLog(@"==================================");
         startDate = [NSDate date];
-        startDate = [NSDate date];
         
-//        MinimumSpanningTreeKruskal *MSTKruskal = [[MinimumSpanningTreeKruskal alloc] init];
-//        [MSTKruskal MST_Kruskal];
         
-        MinimumSpanningTreePrim *MSTPrim = [[MinimumSpanningTreePrim alloc] init];
-        [MSTPrim MST_Prim:MSTPrim.graph[0]];
+        BellmanFord *bellman = [[BellmanFord alloc] init];
+        bool b = [bellman BellmanFord:bellman.graph[0]];
+        
+        if (b)
+        {
+            NSLog(@"There is NO negative-weight cycles that are reachable from the source.");
+        }
+        else
+        {
+            NSLog(@"There is negative-weight cycles that are reachable from the source.");
+        }
         
         endDate = [NSDate date];
-        //NSLog(@"%@",arr0);
-        
-        
         NSLog(@"==================================");
         
         
+        // =====================================================================
         // Show Time
-        NSTimeInterval interval = [endDate timeIntervalSinceDate:startDate];
-        NSDateFormatter *dateFormatter = [NSDateFormatter new];
-        [dateFormatter setDateFormat:@"yyyy/MM/dd HH:mm:ss.SSS"];
-        NSString *dateString = [dateFormatter stringFromDate:startDate];
-        NSLog(@"Start Time = %@", dateString);
-        dateString = [dateFormatter stringFromDate:endDate];
-        NSLog(@"End   Time = %@", dateString);
-        NSLog(@"Total Time = %.3f Seconds",interval);
+            NSTimeInterval interval = [endDate timeIntervalSinceDate:startDate];
+            NSDateFormatter *dateFormatter = [NSDateFormatter new];
+            [dateFormatter setDateFormat:@"yyyy/MM/dd HH:mm:ss.SSS"];
+            NSString *dateString = [dateFormatter stringFromDate:startDate];
+            NSLog(@"Start Time = %@", dateString);
+            dateString = [dateFormatter stringFromDate:endDate];
+            NSLog(@"End   Time = %@", dateString);
+            NSLog(@"Total Time = %.3f Seconds",interval);
+        // =====================================================================
         
-        
-
-
     }
     return 0;
 
