@@ -35,6 +35,9 @@
 		46CDCB6518C6BB72000CEF60 /* MinimumSpanningTreePrim.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDCB6418C6BB72000CEF60 /* MinimumSpanningTreePrim.m */; };
 		46CDCB6818C6BC43000CEF60 /* MSTPrimEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDCB6718C6BC43000CEF60 /* MSTPrimEdge.m */; };
 		46CDCB6B18C6BC56000CEF60 /* MSTPrimVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDCB6A18C6BC56000CEF60 /* MSTPrimVertex.m */; };
+		46D521CA18CB99B10012B03B /* Dijkstra.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D521C918CB99B10012B03B /* Dijkstra.m */; };
+		46D521CD18CB99E80012B03B /* DijkstraVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D521CC18CB99E80012B03B /* DijkstraVertex.m */; };
+		46D521D018CB99F20012B03B /* DijkstraEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D521CF18CB99F20012B03B /* DijkstraEdge.m */; };
 		46E9829518CA662900D72685 /* BellmanFord.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9829418CA662900D72685 /* BellmanFord.m */; };
 		46E9829818CA66D000D72685 /* BellmanFordVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9829718CA66D000D72685 /* BellmanFordVertex.m */; };
 		46E9829B18CA6A0A00D72685 /* BellmanFordEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E9829A18CA6A0A00D72685 /* BellmanFordEdge.m */; };
@@ -109,6 +112,12 @@
 		46CDCB6718C6BC43000CEF60 /* MSTPrimEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTPrimEdge.m; sourceTree = "<group>"; };
 		46CDCB6918C6BC56000CEF60 /* MSTPrimVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTPrimVertex.h; sourceTree = "<group>"; };
 		46CDCB6A18C6BC56000CEF60 /* MSTPrimVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTPrimVertex.m; sourceTree = "<group>"; };
+		46D521C818CB99B10012B03B /* Dijkstra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dijkstra.h; sourceTree = "<group>"; };
+		46D521C918CB99B10012B03B /* Dijkstra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dijkstra.m; sourceTree = "<group>"; };
+		46D521CB18CB99E80012B03B /* DijkstraVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DijkstraVertex.h; sourceTree = "<group>"; };
+		46D521CC18CB99E80012B03B /* DijkstraVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraVertex.m; sourceTree = "<group>"; };
+		46D521CE18CB99F20012B03B /* DijkstraEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DijkstraEdge.h; sourceTree = "<group>"; };
+		46D521CF18CB99F20012B03B /* DijkstraEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DijkstraEdge.m; sourceTree = "<group>"; };
 		46E9829318CA662900D72685 /* BellmanFord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BellmanFord.h; sourceTree = "<group>"; };
 		46E9829418CA662900D72685 /* BellmanFord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BellmanFord.m; sourceTree = "<group>"; };
 		46E9829618CA66D000D72685 /* BellmanFordVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BellmanFordVertex.h; sourceTree = "<group>"; };
@@ -215,7 +224,13 @@
 				46E9829918CA6A0A00D72685 /* BellmanFordEdge.h */,
 				46E9829A18CA6A0A00D72685 /* BellmanFordEdge.m */,
 				460DC9E118C526D000E0CB88 /* Algorithms.1 */,
+				46D521C818CB99B10012B03B /* Dijkstra.h */,
+				46D521C918CB99B10012B03B /* Dijkstra.m */,
 				460DC9DF18C526D000E0CB88 /* Supporting Files */,
+				46D521CB18CB99E80012B03B /* DijkstraVertex.h */,
+				46D521CC18CB99E80012B03B /* DijkstraVertex.m */,
+				46D521CE18CB99F20012B03B /* DijkstraEdge.h */,
+				46D521CF18CB99F20012B03B /* DijkstraEdge.m */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -280,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460DCA1B18C526F300E0CB88 /* MergeSort.m in Sources */,
+				46D521CA18CB99B10012B03B /* Dijkstra.m in Sources */,
 				460DCA1418C526F300E0CB88 /* DepthFirstSearch.m in Sources */,
 				460DCA1818C526F300E0CB88 /* InsertionSort.m in Sources */,
 				46E9829B18CA6A0A00D72685 /* BellmanFordEdge.m in Sources */,
@@ -302,7 +318,9 @@
 				460DCA0F18C526F300E0CB88 /* BinarySearchTree.m in Sources */,
 				460DCA1A18C526F300E0CB88 /* LongestCommonSubsequence.m in Sources */,
 				460DCA0E18C526F300E0CB88 /* BFSNode.m in Sources */,
+				46D521CD18CB99E80012B03B /* DijkstraVertex.m in Sources */,
 				460DCA1718C526F300E0CB88 /* HuffmanCoding.m in Sources */,
+				46D521D018CB99F20012B03B /* DijkstraEdge.m in Sources */,
 				460DCA1318C526F300E0CB88 /* CountingSort.m in Sources */,
 				460DCA1E18C526F300E0CB88 /* RandomizedSelect.m in Sources */,
 				46547CC218C538BF005BC9D5 /* MinimumSpanningTreeKruskal.m in Sources */,

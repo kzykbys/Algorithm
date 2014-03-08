@@ -32,6 +32,7 @@ Algorithm Implementation from _Introduction to Algorithms - Third Edition_ based
 3. Kruskal's Minimum Spanning Tree
 4. Prim's Minimum Spanning Tree
 5. Bellman Ford
+6. Dijkstra
 
 ## Others
 1. RandomizedSelect

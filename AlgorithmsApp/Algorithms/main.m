@@ -28,6 +28,7 @@
 #import "MinimumSpanningTreeKruskal.h"
 #import "MinimumSpanningTreePrim.h"
 #import "BellmanFord.h"
+#import "Dijkstra.h"
 
 int main(int argc, const char * argv[])
 {
@@ -49,7 +50,7 @@ int main(int argc, const char * argv[])
         NSLog(@"==================================");
         startDate = [NSDate date];
         
-        
+/*
         BellmanFord *bellman = [[BellmanFord alloc] init];
         bool b = [bellman BellmanFord:bellman.graph[0]];
         
@@ -61,6 +62,11 @@ int main(int argc, const char * argv[])
         {
             NSLog(@"There is negative-weight cycles that are reachable from the source.");
         }
+*/
+        
+        Dijkstra *dijkstra = [[Dijkstra alloc] init];
+        NSMutableArray *arr = [dijkstra Dijkstra:dijkstra.graph[0]];
+        
         
         endDate = [NSDate date];
         NSLog(@"==================================");
